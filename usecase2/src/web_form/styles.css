@@ -1,0 +1,48 @@
+h2 {
+    text-align: left;
+}
+h3 {
+    text-align: left;
+}
+table,
+td,
+th {
+    border: 0px black solid;
+}
+table {
+    box-align: center;
+    width: 70%;
+    margin: 0 auto;
+    border: solid 0px;
+}
+textarea {
+    width: 99%;
+    margin: 0 auto;
+    border: solid 0px;
+}
+td.center {
+    text-align: center;
+}
+td.left {
+    text-align: left;
+}
+td.nowrap {
+    white-space: nowrap;
+    width: 100px;
+}
+.btn {
+    text-align: center;
+    width: 200px;
+}
+#result_td {
+    height: 100px;
+    border: solid;
+    border: 1px solid;
+    border-color: #000000;
+}
+#download_errordetails {
+    color: red;
+    display: table;
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+#code,MDC_P001_13,MDC_P004_1,MDC_P005,MDC_P202 (Domain of the function),,,MDC_P203(Codomain of the function),,MDC_P205,MDC_P204,MDC_E001,MDC_P007_1
+#name,Code,Preferred name,definition,MM1 model,MM1 Element,MM1 Element_org,MM2 Element,MM2 model,Condition,Formula,Default value,Note
+#Descriptiom,変換ルールの番号,変換ルールの名称（必要ならば）,変換ルールの定義（必要ならば）,入力メタモデルのタイプ,入力メタモデル要素,入力メタモデル要素,出力メタモデル要素,出力するメタモデルのタイプ,変換ルール成立するための条件,入力・出力間の変換数式,出力するスキーマのDefault値,変換ルールの説明
+,rule1,,,class,,,,conceptDescriptions[],,,"conceptDescriptions[-1].modelType.name=""ConceptDescription""",
+,rule2,,,class,code,,id,conceptDescriptions[-1].identification,,,"conceptDescriptions[-1].identification.idType=""IRDI"";conceptDescriptions[-1].embeddedDataSpecifications[].dataSpecification.keys=$emptyArray",
+,rule3,,,class,preferred name,preferred name.en,idShort,conceptDescriptions[-1],,,,
+,rule4,,,class,preferred name,preferred name.en,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[-1].language=""EN""",
+,rule5,,,class,preferred name.de,preferred name.de,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[-1].language=""DE""",
+,rule6,,,class,preferred name.ja,preferred name.ja,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[-1].language=""JA""",
+,rule7,,,class,short name,short name.en,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[-1].language=""EN""",
+,rule8,,,class,short name.de,short name.de,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[-1].language=""DE""",
+,rule9,,,class,short name.ja,short name.ja,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[-1].language=""JA""",
+,rule10,,,class,definition,definition.en,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[-1].language=""EN""",
+,rule11,,,class,definition.de,definition.de,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[-1].language=""DE""",
+,rule12,,,class,definition.ja,definition.ja,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[-1].language=""JA""",
+,rule13,,,class,Source document of definition,,sourceOfDefinition,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent,,,,
+,rule14,,,class,is Case Of,isCaseOf,isCaseOf,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent,,$List2Array,,
+,rule15,,,class,version number,,version,conceptDescriptions[-1].administration,,,,
+,rule16,,,class,revision number,rivision number,revision,conceptDescriptions[-1].administration,,,,
+,rule17,,,property,,,,conceptDescriptions[],,,"conceptDescriptions[-1].modelType.name=""ConceptDescription"";conceptDescriptions[-1].embeddedDataSpecifications=$emptyArray",
+,rule18,,,property,,,value,conceptDescriptions[-1].embeddedDataSpecifications[].dataSpecificationContent,,,,
+,rule19,,,property,code,,id,conceptDescriptions[-1].identification,,,"conceptDescriptions[-1].identification.idType=""IRDI"";conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecification.keys=$emptyArray",
+,rule20,,,property,Preferred name,preferred name.en,idShort,conceptDescriptions[-1],,,,
+,rule21,,,property,Preferred name,preferred name.en,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[-1].language=""EN""",
+,rule22,,,property,Preferred name.de,preferred name.de,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[-1].language=""DE""",
+,rule23,,,property,Preferred name.ja,preferred name.ja,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.preferredName[-1].language=""JA""",
+,rule24,,,property,short name,short name.en,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[-1].language=""EN""",
+,rule25,,,property,short name.de,short name.de,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[-1].language=""DE""",
+,rule26,,,property,short name.ja,short name.ja,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.shortName[-1].language=""JA""",
+,rule27,,,property,definition,definition.en,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[-1].language=""EN""",
+,rule28,,,property,definition.de,definition.de,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[-1].language=""DE""",
+,rule29,,,property,definition.ja,definition.ja,text,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.definition[-1].language=""JA""",
+,rule30,,,property,Source document of definition,,sourceOfDefinition,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent,,,,
+,rule31,,,property,version number,,version,conceptDescriptions[-1].administration,,,,
+,rule32,,,property,revision number,rivision number,revision,conceptDescriptions[-1].administration,,,,
+,rule33,,,property,Preferred letter symbol in text,symbol,symbol,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent,,,,
+,rule34,,,property,data type,,datatype,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent,"property.data type=='BOOLEAN_TYPE' : 'boolean';
+property.data type=='BINARY_TYPE' : 'string';
+property.data type=='CLASS_REFERENCE_TYPE(***)' : 'string';
+property.data type=='LIST(0,?) of ***' : 'string';
+property.data type=='STRING_TYPE'  : 'string';
+property.data type=='INT_MEASURE_TYPE' : 'integer';
+property.data type=='INT_TYPE' : 'integer';
+property.data type=='REAL_MEASURE_TYPE' : 'double';
+property.data type=='REAL_TYPE'  : 'double';
+property.data type=='ENUM_***_TYPE'  : 'String';
+property.data type!='ENUM_***_TYPE'  : 'String'
+",,,
+,rule35,,,property,Unit structure,,unit,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent,,,,
+,rule36,,,property,Code for unit,,value,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.unitId.keys[],,,"conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.unitId.keys[-1].type=""ConceptDescription"";
+conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent.unitId.keys[-1].idType=""IRDI""",
+,rule37,,,property,value Format,,valueFormat,conceptDescriptions[-1].embeddedDataSpecifications[-1].dataSpecificationContent,,,,
+,rule38,,,property,code,,idShort,assetAdministrationShells[-1].conceptDictionaries[-1],,Sub(/[^#]+/),,

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="ProbeVehicle">
+<Root>
+	<sensing>
+		<timestamp>1577836800</timestamp>
+		<latitude>
+			<degree>35.67</degree> <!-- degree -->
+			<confidence>1000</confidence> <!-- mm -->
+		</latitude>
+		<longitude>
+			<degree>139.65</degree> <!-- degree -->
+			<confidence>2000</confidence> <!-- mm -->
+		</longitude>
+		<altitude>
+			<altitude>40</altitude> <!-- degree -->
+			<confidence>3</confidence> <!-- m -->
+		</altitude>
+	</sensing>
+	<vehicle>
+		<name>my_car</name>
+		<velocity>
+			<velocity>15</velocity> <!-- m/s -->
+			<confidence>0.1</confidence> <!-- m/s -->
+		</velocity>
+		<surrounds>
+			<rainfallIntensity>5</rainfallIntensity> <!-- mm/h -->
+			<temperature>
+				<degrees>10</degrees> <!-- Celsius degree -->
+				<confidence>0.1</confidence> <!-- Celsius degree -->
+			</temperature>
+			<lightCondition>3</lightCondition> <!-- ligh condition level 0-7 -->
+		</surrounds>
+		<surroundingObject>
+			<distance>300</distance>
+			<direction>30</direction>
+		</surroundingObject>
+	</vehicle>
+	<path>
+		<origin>
+			<latitude>
+				<degree>32.10</degree> <!-- degree -->
+				<confidence>1000</confidence> <!-- mm -->
+			</latitude>
+			<longitude>
+				<degree>137.89</degree> <!-- degree -->
+				<confidence>2000</confidence> <!-- mm -->
+			</longitude>
+		</origin>
+		<destination>
+			<latitude>
+				<degree>38.90</degree> <!-- degree -->
+				<confidence>1000</confidence> <!-- mm -->
+			</latitude>
+			<longitude>
+				<degree>134.56</degree> <!-- degree -->
+				<confidence>2000</confidence> <!-- mm -->
+			</longitude>
+		</destination>
+	</path>
+</Root>
+</xmi:XMI>

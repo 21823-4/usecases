@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="Fiware">
+  <eClassifiers xsi:type="ecore:EClass" name="Root">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="vehicle" eType="#//Vehicle"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="weatherObserved" eType="#//WeatherObserved"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="road" eType="#//Road"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roadSegment" upperBound="-1"
+        eType="#//RoadSegment"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="trafficFlowObserved" eType="#//TrafficFlowObserved"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Vehicle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType Fiware.ecore#//string"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="speed" ordered="false"
+        lowerBound="1" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="#//geo%3Ajson"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="geo:json">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//string"
+        defaultValueLiteral="geo:json"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" eType="#//Point"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="metadata" eType="#//metadata"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//string"
+        defaultValueLiteral="Point"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="coordinates" upperBound="3"
+        eType="#//number"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="metadata">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="timestamp" eType="#//timestamp"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="timestamp">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//string"
+        defaultValueLiteral="DateTime"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="#//date-time"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WeatherObserved">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType Fiware.ecore#//string"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="temperature" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="illuminance" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="precipitation" eType="#//number"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Road">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refRoadSegment" upperBound="-1"
+        eType="ecore:EDataType Fiware.ecore#//string"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoadSegment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" lowerBound="1" eType="ecore:EDataType Fiware.ecore#//string"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="startPoint" eType="#//geo%3Ajson"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endPoint" eType="#//geo%3Ajson"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TrafficFlowObserved">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="averageVehicleLength" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="laneDirection" eType="#//string"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="refRoadSegment" upperBound="-1"
+        eType="ecore:EDataType Fiware.ecore#//string"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="string" instanceTypeName="EString"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="number" instanceTypeName="EDouble"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="date" instanceTypeName="EDate"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="date-time" instanceTypeName="DateTime"/>
+</ecore:EPackage>

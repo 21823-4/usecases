@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--IEC CDD sample metamodel in xsd for ISO/IEC 21823-4 usecase
+Copyright (C) 2021 TOSHIBA Corporation.
+-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xml="http://www.w3.org/XML/1998/namespace" >
+<xsd:element name="code" type="xsd:string"/>
+<xsd:element name="superclass" type="xsd:string"/>
+<xsd:element name="version" type="xsd:string"/>
+<xsd:element name="revision" type="xsd:string"/>
+<xsd:element name="date_of_original_definition" type="xsd:date"/>
+<xsd:element name="date_of_current_version" type="xsd:date"/>
+<xsd:element name="preferred name">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+					<xsd:attribute ref="xml:lang" use="required"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="shortname">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+					<xsd:attribute ref="xml:lang" />
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+
+ <xsd:element name="definition">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+					<xsd:attribute ref="xml:lang" use="required"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+ <xsd:element name="synonymous name">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+					<xsd:attribute ref="xml:lang" />
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="source document of definition" type="xsd:string"/>
+	<xsd:element name="is case of" type="xsd:string"/>
+	
+
+ <xsd:element name="simplified_drawing">
+	<xsd:simpleType>
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="drawing file uri"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:element>
+
+<xsd:element name="definition class" type="xsd:string"/>
+<xsd:element name="unit in text" type="xsd:string" />
+<xsd:element name="preferred letter symbol in text" type="xsd:string" />
+<xsd:element name="graphics" type="xsd:string" />
+<xsd:element name="value format" type="xsd:string" />
+
+<xsd:element name="class">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="code"/>
+			<xsd:element ref="superclass"/>
+			<xsd:element ref="prefered name"/>
+			<xsd:element ref="short name"/>
+			<xsd:element ref="definition"/>
+			<xsd:element ref="source document of definition"/>
+			<xsd:element ref="is case of"/>
+			<xsd:element ref="version"/>
+			<xsd:element ref="revision"/>
+			<xsd:element ref="date of original definition"/>
+			<xsd:element ref="date_of_current_version"/>
+			<xsd:element ref="classtype"/>
+			<xsd:element ref="alternate_id"/>
+			<xsd:element ref="note"/>
+			<xsd:element ref="applicable_property"/>
+			</xsd:sequence>
+	 <xsd:attribute name="IRDI" type="xsd:string"  use="required" />
+	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name="property">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element ref="code"/>
+			<xsd:element ref="prefered name"/>
+			<xsd:element ref="short name"/>
+			<xsd:element ref="definition"/>
+			<xsd:element ref="definition class"/>
+			<xsd:element ref="source document of definition"/>
+			<xsd:element ref="version"/>
+			<xsd:element ref="revision"/>
+			<xsd:element ref="preferred letter symbol in text"/>
+			<xsd:element ref="data_type"/>
+			<xsd:element ref="value format"/>
+			<xsd:element ref="date of original definition"/>
+			<xsd:element ref="date of current version"/>			
+			<xsd:element ref="note"/>
+			<xsd:element ref="synonymous name"/>
+			<xsd:element ref="alternate_id"/>
+			<xsd:element ref="graphics"/>
+			<xsd:element ref="unit_in_text"/>
+			<xsd:element ref="alternative_units"/>
+			<xsd:element ref="code_for_unit"/>
+		</xsd:sequence>
+	 <xsd:attribute name="IRDI" type="xsd:string"  use="required" />
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>

@@ -1,0 +1,8494 @@
+{
+	"assetAdministrationShells": [
+		{
+			"assetInformation": {
+				"assetKind": "Type",
+				"globalAssetId": {
+					"keys": []
+				},
+				"specificAssetId": [],
+				"billOfMaterial": [],
+				"defaultThumbnail": "",
+				"index": 0
+			},
+			"asset": {
+				"keys": [
+					{
+						"type": "Asset",
+						"local": false,
+						"value": "HTTP://*.21823-4.*/CDD_2_AAS_DEMO",
+						"index": 0,
+						"idType": "IRI"
+					}
+				]
+			},
+			"submodels": [
+				{
+					"keys": [
+						{
+							"type": "Submodel",
+							"local": true,
+							"value": "CDD_2_AAS_DEMO/SM/SM_DEMO1",
+							"index": 0,
+							"idType": "IRI"
+						}
+					]
+				}
+			],
+			"conceptDictionaries": [
+				{
+					"idShort": "0112/2///61987"
+				}
+			],
+			"identification": {
+				"idType": "IRI",
+				"id": "smart.festo.com/demo/aas/1/1/454576463545648365874"
+			},
+			"idShort": "CDD_2_AAS_DEMO1",
+			"category": "CONSTANT",
+			"modelType": {
+				"name": "AssetAdministrationShell"
+			}
+		}
+	],
+	"assets": [
+		{
+			"identification": {
+				"idType": "IRI",
+				"id": "HTTP://*.21823-4.*/CDD_2_AAS_DEMO"
+			},
+			"idShort": "CDD_2_AAS_DEMO_asset1",
+			"modelType": {
+				"name": "Asset"
+			},
+			"kind": "Instance",
+			"descriptions": [
+				{
+					"language": "EN",
+					"text": "CDD_2_AAS DEMO assets "
+				}
+			]
+		}
+	],
+	"submodels": [
+		{
+			"semanticId": {
+				"keys": [
+					{
+						"type": "GlobalReference",
+						"local": true,
+						"value": "0112/2///61987#ABA000",
+						"index": 0,
+						"idType": "IRI"
+					}
+				]
+			},
+			"qualifiers": [],
+			"identification": {
+				"idType": "IRI",
+				"id": "0112/2///61987#ABA000"
+			},
+			"idShort": "Equipment for industrial-process automation",
+			"modelType": {
+				"name": "Submodel"
+			},
+			"kind": "Template",
+			"submodelElements": [
+				{
+					"value": "title property from CDD for DEMO",
+					"semanticId": {
+						"keys": [
+							{
+								"type": "ConceptDescription",
+								"local": true,
+								"value": "0112/2///61987#ABA002",
+								"index": 0,
+								"idType": "IRDI"
+							}
+						]
+					},
+					"constraints": [],
+					"idShort": "title",
+					"category": "VARIABLE",
+					"modelType": {
+						"name": "Property"
+					},
+					"valueType": {
+						"dataObjectType": {
+							"name": "string"
+						}
+					},
+					"kind": "Instance"
+				}
+			]
+		}
+	],
+	"conceptDescriptions": [
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA000",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Equipment for industrial-process automation",
+								"language": "EN"
+							},
+							{
+								"text": "Einrichtung f?r die Automatisierung industrieller Prozesse",
+								"language": "DE"
+							},
+							{
+								"text": "インダストリー　プロセス計測機器",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "Equipment for industrial-process automation",
+								"language": "EN"
+							},
+							{
+								"text": "Einrichtung f?r die Automatisierung industrieller Prozesse",
+								"language": "DE"
+							},
+							{
+								"text": "インダストリー　プロセス計測機器",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "equipment that supports partial or fully automated operation of industrial processes",
+								"language": "EN"
+							},
+							{
+								"text": "ドイツ語提案",
+								"language": "DE"
+							},
+							{
+								"text": "日本語定義",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": []
+					}
+				}
+			],
+			"idShort": "Equipment for industrial-process automation",
+			"administration": {
+				"version": "1",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA001",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Measuring instrument",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "automation equipment that detects an aspect of a material in order to record, transform or display such an aspect or to perform a combination of these activities",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": []
+					}
+				}
+			],
+			"idShort": "Measuring instrument",
+			"administration": {
+				"version": "1",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA003",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Operating LOP for flow measuring equipment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "list of properties characterizing the operating conditions of flow measuring equipment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": []
+					}
+				}
+			],
+			"idShort": "Operating LOP for flow measuring equipment",
+			"administration": {
+				"version": "2",
+				"revision": "3"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA005",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Device LOP for flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "list of properties characterizing a flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": [
+							"0112/2///61987#ABV500",
+							"0112/2///61987#ABV501"
+						]
+					}
+				}
+			],
+			"idShort": "Device LOP for flow transmitter",
+			"administration": {
+				"version": "1",
+				"revision": "3"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA006",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Device LOP for coriolis mass flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "list of properties characterizing a coriolis mass flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": []
+					}
+				}
+			],
+			"idShort": "Device LOP for coriolis mass flow transmitter",
+			"administration": {
+				"version": "1",
+				"revision": "3"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA007",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Device LOP for swirl flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "list of properties characterizing a swirl flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": []
+					}
+				}
+			],
+			"idShort": "Device LOP for swirl flow transmitter",
+			"administration": {
+				"version": "1",
+				"revision": "3"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA008",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Device LOP for electromagnetic flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "list of properties characterizing an electromagnetic flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": []
+					}
+				}
+			],
+			"idShort": "Device LOP for electromagnetic flow transmitter",
+			"administration": {
+				"version": "1",
+				"revision": "3"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA009",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Device LOP for electromagnetic insertion flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "list of properties characterizing an electromagnetic insertion flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": []
+					}
+				}
+			],
+			"idShort": "Device LOP for electromagnetic insertion flow transmitter",
+			"administration": {
+				"version": "1",
+				"revision": "3"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"identification": {
+				"id": "0112/2///61987#ABA010",
+				"idType": "IRDI"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecification": {
+						"keys": []
+					},
+					"dataSpecificationContent": {
+						"preferredName": [
+							{
+								"text": "Device LOP for orifice/differential pressure flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "list of properties characterizing an orifice/differential pressure flow transmitter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"isCaseOf": []
+					}
+				}
+			],
+			"idShort": "Device LOP for orifice/differential pressure flow transmitter",
+			"administration": {
+				"version": "1",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "title",
+								"language": "EN"
+							},
+							{
+								"text": "Bevorzugter Name(in DE)",
+								"language": "DE"
+							},
+							{
+								"text": "タイトル",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "Short name(DE)",
+								"language": "DE"
+							},
+							{
+								"text": "ショットネーム",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "common, formal, religious, or other title preceding a contact person's name",
+								"language": "EN"
+							},
+							{
+								"text": "Definition(DE)",
+								"language": "DE"
+							},
+							{
+								"text": "日本語定義",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "TLE",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA002",
+				"idType": "IRDI"
+			},
+			"idShort": "title",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of e-mail address",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "characterization of an e-mail address according its location or usage",
+								"language": "EN"
+							},
+							{
+								"text": "Definition(DE)",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA004",
+				"idType": "IRDI"
+			},
+			"idShort": "type of e-mail address",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "unit",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "collection of associated control modules and/or equipment modules and other process equipment in which one or more major processing activities can be conducted",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA011",
+				"idType": "IRDI"
+			},
+			"idShort": "unit",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "description of contact",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "plain text characterizing contact information for which there is no property",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA012",
+				"idType": "IRDI"
+			},
+			"idShort": "description of contact",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference to Equipment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "reference to block ABA426",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA015",
+				"idType": "IRDI"
+			},
+			"idShort": "reference to Equipment",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "URL of website",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "uniform resource locator of the website of a company or business partner",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA017",
+				"idType": "IRDI"
+			},
+			"idShort": "URL of website",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of fax number",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "characterization of the fax according its location or usage",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA021",
+				"idType": "IRDI"
+			},
+			"idShort": "type of fax number",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of attachments",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "cardinality property for an e-mail attachment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA027",
+				"idType": "IRDI"
+			},
+			"idShort": "number of attachments",
+			"administration": {
+				"version": "1",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "VAT number",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "VAT identification number of the business partner",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA028",
+				"idType": "IRDI"
+			},
+			"idShort": "VAT number",
+			"administration": {
+				"version": "1",
+				"revision": "3"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "public key",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "public part of an unsymmetrical key pair to sign or encrypt text or messages",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA030",
+				"idType": "IRDI"
+			},
+			"idShort": "public key",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of e-mails",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "cardinality property for e-mail",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA033",
+				"idType": "IRDI"
+			},
+			"idShort": "number of e-mails",
+			"administration": {
+				"version": "1",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference to E-mail",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "reference to block ABA395",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "String",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA036",
+				"idType": "IRDI"
+			},
+			"idShort": "reference to E-mail",
+			"administration": {
+				"version": "1",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "identification code of device",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "alphanumeric character sequence uniquely identifying a device",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA038",
+				"idType": "IRDI"
+			},
+			"idShort": "identification code of device",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "cable application",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "application for which a cable is intended to be used",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA039",
+				"idType": "IRDI"
+			},
+			"idShort": "cable application",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "maximum cable resistance",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest permissible resistance of the cable",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "?",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA017",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA040",
+				"idType": "IRDI"
+			},
+			"idShort": "maximum cable resistance",
+			"administration": {
+				"version": "2",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of digital communication",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "classification of digital communication according to the protocol in use",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA041",
+				"idType": "IRDI"
+			},
+			"idShort": "type of digital communication",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "device class",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "role which a device may adopt in a digital communication system",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA042",
+				"idType": "IRDI"
+			},
+			"idShort": "device class",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "LAS functionality",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "for FOUNDATION fieldbus devices, ability of the device to act as link active scheduler",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA043",
+				"idType": "IRDI"
+			},
+			"idShort": "LAS functionality",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "assigned LAS functionality",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "status of LAS functionality assigned at the factory",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA044",
+				"idType": "IRDI"
+			},
+			"idShort": "assigned LAS functionality",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "e-mail address",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "electronic mail address of a business partner",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA045",
+				"idType": "IRDI"
+			},
+			"idShort": "e-mail address",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of address adjustment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "classification of an address adjustment according to the means proved to assign it",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA046",
+				"idType": "IRDI"
+			},
+			"idShort": "type of address adjustment",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of communication variables",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "@number of communication variables",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA047",
+				"idType": "IRDI"
+			},
+			"idShort": "number of communication variables",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "designation of digital communication channel",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "alphanumeric character sequence identifying a digital communication channel",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA048",
+				"idType": "IRDI"
+			},
+			"idShort": "designation of digital communication channel",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "assigned variable",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "process variable assigned to a digital communication channel",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA049",
+				"idType": "IRDI"
+			},
+			"idShort": "assigned variable",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference to Fax",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "reference to block ABA436",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "String",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA050",
+				"idType": "IRDI"
+			},
+			"idShort": "reference to Fax",
+			"administration": {
+				"version": "1",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of communication variable",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "classification of a communication variable according to its associated I/O block",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA051",
+				"idType": "IRDI"
+			},
+			"idShort": "type of communication variable",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "source of attachment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "origin of an of an e-mail attachment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA052",
+				"idType": "IRDI"
+			},
+			"idShort": "source of attachment",
+			"administration": {
+				"version": "1",
+				"revision": "3"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "identifier of related equipment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "alphanumeric character sequence uniquely identifying a piece of equipment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA053",
+				"idType": "IRDI"
+			},
+			"idShort": "identifier of related equipment",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of reset parameters",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "@number of reset parameters",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA054",
+				"idType": "IRDI"
+			},
+			"idShort": "number of reset parameters",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reset value",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "numerical value of a discrete input reset function",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA055",
+				"idType": "IRDI"
+			},
+			"idShort": "reset value",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of public key",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "characterization of a public key according to its encryption process",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA056",
+				"idType": "IRDI"
+			},
+			"idShort": "type of public key",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reset function",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "action associated with a reset value",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA057",
+				"idType": "IRDI"
+			},
+			"idShort": "reset function",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of physical layer",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "classification of a physical layer according to the associated transmission method or standard",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA058",
+				"idType": "IRDI"
+			},
+			"idShort": "type of physical layer",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of baud rate settings",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "@number of baud rate settings",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA059",
+				"idType": "IRDI"
+			},
+			"idShort": "number of baud rate settings",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "supported baud rate",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "rate of data transmission supported by a device",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "kBd",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA560",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA060",
+				"idType": "IRDI"
+			},
+			"idShort": "supported baud rate",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of wired communication interfaces",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "@number of wired communication interfaces",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA061",
+				"idType": "IRDI"
+			},
+			"idShort": "number of wired communication interfaces",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "base current",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "current drawn from the bus in normal operation",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "mA",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA775",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA062",
+				"idType": "IRDI"
+			},
+			"idShort": "base current",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "start-up current",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "current drawn from the bus on start-up of the device",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "mA",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA775",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA063",
+				"idType": "IRDI"
+			},
+			"idShort": "start-up current",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "address remarks",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "plain text characterizing address information for which there is no property",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA064",
+				"idType": "IRDI"
+			},
+			"idShort": "address remarks",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reverse polarity protection",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "provision of protection within a device against wiring mix-ups",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA065",
+				"idType": "IRDI"
+			},
+			"idShort": "reverse polarity protection",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "version of device driver",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "version of the device driver required for proper operation of the device",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA066",
+				"idType": "IRDI"
+			},
+			"idShort": "version of device driver",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "version of frame application",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "version of the frame application required for proper operation of the device driver",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA067",
+				"idType": "IRDI"
+			},
+			"idShort": "version of frame application",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of contact informations",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "cardinality property for contact information",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA068",
+				"idType": "IRDI"
+			},
+			"idShort": "number of contact informations",
+			"administration": {
+				"version": "1",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "fax number",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "complete telephone number to be called to reach a business partner's fax machine",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA069",
+				"idType": "IRDI"
+			},
+			"idShort": "fax number",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "version of operating system",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "version or service pack of the operating system supported by a software application",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA070",
+				"idType": "IRDI"
+			},
+			"idShort": "version of operating system",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of function blocks",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "@number of function blocks",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA071",
+				"idType": "IRDI"
+			},
+			"idShort": "number of function blocks",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "description of service",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "plain text characterizing the usage of a piece of equipment within a unit",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA072",
+				"idType": "IRDI"
+			},
+			"idShort": "description of service",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "department",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "administrative section within an organization where a business partner is located",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA073",
+				"idType": "IRDI"
+			},
+			"idShort": "department",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of function block",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "classification of a function block according to the action it provides",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA074",
+				"idType": "IRDI"
+			},
+			"idShort": "type of function block",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "quantity of function blocks",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "number of function blocks of the same type provided by the device",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA075",
+				"idType": "IRDI"
+			},
+			"idShort": "quantity of function blocks",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "execution time of function block",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "time required to execute a function block",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA076",
+				"idType": "IRDI"
+			},
+			"idShort": "execution time of function block",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "style of function block",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "classification of a function block according to interoperability",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA077",
+				"idType": "IRDI"
+			},
+			"idShort": "style of function block",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "notes on function block",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "user description of function block properties",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA078",
+				"idType": "IRDI"
+			},
+			"idShort": "notes on function block",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "document designation",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "name of a document",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA079",
+				"idType": "IRDI"
+			},
+			"idShort": "document designation",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "quantity of virtual communication relationships (VCRs)",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "number of communication channels available for linkage to external function blocks",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA080",
+				"idType": "IRDI"
+			},
+			"idShort": "quantity of virtual communication relationships (VCRs)",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "methods capability",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "ability to use methods to configure the device",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA081",
+				"idType": "IRDI"
+			},
+			"idShort": "methods capability",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "number of faxes",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "cardinality property for fax",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "integer",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA082",
+				"idType": "IRDI"
+			},
+			"idShort": "number of faxes",
+			"administration": {
+				"version": "1",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "description of methods",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "plain text describing a method which can be used by the device",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA083",
+				"idType": "IRDI"
+			},
+			"idShort": "description of methods",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "block instantiation capability",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "ability of a device to instantiate function blocks",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA084",
+				"idType": "IRDI"
+			},
+			"idShort": "block instantiation capability",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "identification of configuration parameter set",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "alphanumeric character sequence identifying a set of configuration parameter",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA085",
+				"idType": "IRDI"
+			},
+			"idShort": "identification of configuration parameter set",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "type of telephone",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "characterization of a telephone according to its location or usage",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA086",
+				"idType": "IRDI"
+			},
+			"idShort": "type of telephone",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "author",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "name of the person who generates an item",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA087",
+				"idType": "IRDI"
+			},
+			"idShort": "author",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "special process conditions",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "special process situation that results in further requirements or for which the device is prepared",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA088",
+				"idType": "IRDI"
+			},
+			"idShort": "special process conditions",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "negative environmental conditions",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "environmental conditions that could impair the proper functioning of the device to which the device is or should be designed",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA089",
+				"idType": "IRDI"
+			},
+			"idShort": "negative environmental conditions",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference to Contact information",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "reference to block ABI572",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "String",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA090",
+				"idType": "IRDI"
+			},
+			"idShort": "reference to Contact information",
+			"administration": {
+				"version": "1",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "special environmental conditions",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "special environmental situation that results in further requirements or precautions to which the device is or should be designed",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA091",
+				"idType": "IRDI"
+			},
+			"idShort": "special environmental conditions",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "country",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "country where the company or business partner is located",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA092",
+				"idType": "IRDI"
+			},
+			"idShort": "country",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "electromagnetic compatibility class",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "classification of a device according to the electromagnetic compatibility with its environment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA093",
+				"idType": "IRDI"
+			},
+			"idShort": "electromagnetic compatibility class",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference standard for electromagnetic compatibility classification",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "standard to which an electromagnetic compatibility refers",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA094",
+				"idType": "IRDI"
+			},
+			"idShort": "reference standard for electromagnetic compatibility classification",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "interference emission",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "degree of electromagnetic interference emitted by the device to its environment, expressed as an instrument class",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA095",
+				"idType": "IRDI"
+			},
+			"idShort": "interference emission",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference standard for interference emission",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "standard to which a statement on interference emission refers",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA096",
+				"idType": "IRDI"
+			},
+			"idShort": "reference standard for interference emission",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "interference immunity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "electromagnetic environment in which the device is or should be designed to operate within the specified accuracy limits",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA097",
+				"idType": "IRDI"
+			},
+			"idShort": "interference immunity",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference standard for interference immunity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "standard to which a statement on interference immunity refers",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA098",
+				"idType": "IRDI"
+			},
+			"idShort": "reference standard for interference immunity",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "designation of related equipment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "name given to a piece of equipment",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA099",
+				"idType": "IRDI"
+			},
+			"idShort": "designation of related equipment",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "maximum DC magnetic field strength",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest strength of an electrical field for which a device is or should be designed to operate within its specified accuracy limits",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "A/m",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA104",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA100",
+				"idType": "IRDI"
+			},
+			"idShort": "maximum DC magnetic field strength",
+			"administration": {
+				"version": "2",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "maximum limiting rate of ambient temperature change",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest rate of change of ambient temperature a device can or should withstand without permanent impairment of operating characteristics",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "K/h",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA189",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA101",
+				"idType": "IRDI"
+			},
+			"idShort": "maximum limiting rate of ambient temperature change",
+			"administration": {
+				"version": "2",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "middle names",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "middle name or names of a contact person",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA102",
+				"idType": "IRDI"
+			},
+			"idShort": "middle names",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "minimum limiting value of storage air pressure",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "lowest air pressure to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "mbar",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA810",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA103",
+				"idType": "IRDI"
+			},
+			"idShort": "minimum limiting value of storage air pressure",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference to Project information",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "reference to block ABA398",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA104",
+				"idType": "IRDI"
+			},
+			"idShort": "reference to Project information",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "contact name",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "surname of a contact person",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA105",
+				"idType": "IRDI"
+			},
+			"idShort": "contact name",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "minimum limit of storage relative humidity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "lowest relative humidity to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "%",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA000",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA106",
+				"idType": "IRDI"
+			},
+			"idShort": "minimum limit of storage relative humidity",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "maximum limit of storage relative humidity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest relative humidity to which a device may be subject between the time of construction and the time of operation without permanent impairment of operating characteristics",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "%",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA000",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA107",
+				"idType": "IRDI"
+			},
+			"idShort": "maximum limit of storage relative humidity",
+			"administration": {
+				"version": "2",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference standard for vibration resistance",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "standard to which a statement on vibration resistance refers",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA108",
+				"idType": "IRDI"
+			},
+			"idShort": "reference standard for vibration resistance",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference standard for mechanical shock resistance",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "standard to which a statement on mechanical shock resistance refers",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA109",
+				"idType": "IRDI"
+			},
+			"idShort": "reference standard for mechanical shock resistance",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "maximum dynamic viscosity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest dynamic viscosity for which a device is or should be designed to operate within its specified limits",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "mPa?s",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA797",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA110",
+				"idType": "IRDI"
+			},
+			"idShort": "maximum dynamic viscosity",
+			"administration": {
+				"version": "2",
+				"revision": "7"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "maximum kinematic viscosity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest kinematic viscosity for which a device is or should be designed to operate within its specified limits",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "mm?/s",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA872",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA111",
+				"idType": "IRDI"
+			},
+			"idShort": "maximum kinematic viscosity",
+			"administration": {
+				"version": "2",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "minimum fluid velocity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "lowest fluid velocity for which a device is or should be designed to operate within its specified limits",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "m/s",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA733",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA112",
+				"idType": "IRDI"
+			},
+			"idShort": "minimum fluid velocity",
+			"administration": {
+				"version": "2",
+				"revision": "8"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "document revision",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "alphanumeric character sequence uniquely identifying a document revision",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA113",
+				"idType": "IRDI"
+			},
+			"idShort": "document revision",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "maximum fluid velocity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest fluid velocity for which a device is or should be designed to operate within its specified limits",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "m/s",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA733",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA114",
+				"idType": "IRDI"
+			},
+			"idShort": "maximum fluid velocity",
+			"administration": {
+				"version": "2",
+				"revision": "8"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "pressure drop at upper range-limit of flow rate",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "maximum permanent loss of pressure over the primary element at upper range-limit of flow rate for which the device has or should be designed",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "bar",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA323",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA115",
+				"idType": "IRDI"
+			},
+			"idShort": "pressure drop at upper range-limit of flow rate",
+			"administration": {
+				"version": "2",
+				"revision": "7"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "dynamic viscosity for pressure drop statement",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "dynamic viscosity on the basis of which a pressure drop statement is valid",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "mPa?s",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA797",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA116",
+				"idType": "IRDI"
+			},
+			"idShort": "dynamic viscosity for pressure drop statement",
+			"administration": {
+				"version": "2",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference standard for thermal shock resistance",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "standard to which a statement on thermal shock resistance refers",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA117",
+				"idType": "IRDI"
+			},
+			"idShort": "reference standard for thermal shock resistance",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "reference standard for pressure shock resistance",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "standard to which a statement on pressure shock resistance refers",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA118",
+				"idType": "IRDI"
+			},
+			"idShort": "reference standard for pressure shock resistance",
+			"administration": {
+				"version": "2",
+				"revision": "4"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "lower limiting value of flow velocity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "lowest fluid velocity to which the wetted parts of the measuring equipment may be subjected without permanent impairment of operating characteristics",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "m/s",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA733",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA119",
+				"idType": "IRDI"
+			},
+			"idShort": "lower limiting value of flow velocity",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "upper limiting value of flow velocity",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest fluid velocity to which the wetted parts of the equipment can be subjected without permanent impairment of operating characteristics",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "m/s",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA733",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA120",
+				"idType": "IRDI"
+			},
+			"idShort": "upper limiting value of flow velocity",
+			"administration": {
+				"version": "2",
+				"revision": "6"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "document description",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "plain text characterizing the content of the document",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "string",
+						"unit": "",
+						"unitId": {
+							"keys": [
+								{
+									"value": "",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA121",
+				"idType": "IRDI"
+			},
+			"idShort": "document description",
+			"administration": {
+				"version": "1",
+				"revision": "2"
+			}
+		},
+		{
+			"modelType": {
+				"name": "ConceptDescription"
+			},
+			"embeddedDataSpecifications": [
+				{
+					"dataSpecificationContent": {
+						"value": "",
+						"preferredName": [
+							{
+								"text": "upper limiting value of mass flow",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"shortName": [
+							{
+								"text": "",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"definition": [
+							{
+								"text": "highest mass flow rate to which the measuring equipment may be subjected during operation without permanent impairment of operating characteristics",
+								"language": "EN"
+							},
+							{
+								"text": "",
+								"language": "DE"
+							},
+							{
+								"text": "",
+								"language": "JA"
+							}
+						],
+						"sourceOfDefinition": "",
+						"symbol": "",
+						"datatype": "double",
+						"unit": "kg/h",
+						"unitId": {
+							"keys": [
+								{
+									"value": "0112/2///62720#UAA607",
+									"type": "ConceptDescription",
+									"idType": "IRDI"
+								}
+							]
+						},
+						"valueFormat": ""
+					},
+					"dataSpecification": {
+						"keys": []
+					}
+				}
+			],
+			"identification": {
+				"id": "0112/2///61987#ABA122",
+				"idType": "IRDI"
+			},
+			"idShort": "upper limiting value of mass flow",
+			"administration": {
+				"version": "2",
+				"revision": "5"
+			}
+		}
+	]
+}

@@ -1,0 +1,122 @@
+--  Copyright (C) 2021 TOSHIBA Corporation.
+--  SPDX-License-Identifier: MIT
+
+module Probe2Fiware;
+create OUT: Fiware from IN: ProbeVehicle;
+
+-- unit transformation m/s to km/h
+helper def : transMsToKmh(ms : Integer) : Integer =
+	ms * 60 * 60 / 1000;
+
+helper def : transDecimeterToMeter(dm: Integer): Integer =
+	dm / 10;
+
+-- forwaord if 0 or more, backward otherwise
+helper def : transDirectionToLaneDirection(dir: Integer): Integer =
+	if dir > 0 then
+		'forword'
+	else
+		'backword'
+	endif;
+
+-- transformation level to brightness value(lux)
+helper def : transLightLvToLux(lv : Integer) : Integer =
+	if lv = 0 then
+		0
+	else
+		if lv = 1 then
+			2
+		else
+			if lv = 2 then
+				101
+			else
+				if lv = 3 then
+					1001
+				else
+					if lv = 4 then
+						30001
+					else
+						if lv = 5 then
+							50001
+						else
+							if lv = 6 then
+								80001
+							else
+								100000
+							endif
+						endif
+					endif
+				endif
+			endif
+		endif
+	endif;
+
+rule probe2Fiware {
+	from
+		pv:ProbeVehicle!Root
+	to
+		root:Fiware!Root(
+			vehicle <- veh,
+			weatherObserved <- weather,
+			road <- road,
+			roadSegment <- seg,
+			trafficFlowObserved <- traffic
+		),
+		veh:Fiware!Vehicle(
+			id <- 'vehicle:' + pv.vehicle.name,
+			speed <- thisModule.transMsToKmh(pv.vehicle.velocity.velocity),
+			location <- geo
+		),
+		geo:Fiware!"geo:json"(
+			type <- 'geo:json',
+			value <- point
+		),
+		point:Fiware!Point(
+			type <- 'Point',
+			coordinates <- Sequence{
+				pv.sensing.longitude.degree,
+				pv.sensing.latitude.degree,
+				pv.sensing.altitude.altitude
+			}
+		),
+		weather:Fiware!WeatherObserved(
+			temperature <- pv.vehicle.surrounds.temperature.degrees,
+			precipitation <- pv.vehicle.surrounds.rainfallIntensity,
+			illuminance <- thisModule.transLightLvToLux(pv.vehicle.surrounds.lightCondition)
+		),
+		road: Fiware!Road(
+			refRoadSegment <- Sequence{'RoadSegment-path'}
+		),
+		seg:Fiware!RoadSegment(
+			id <- 'RoadSegment-path',
+			startPoint <- geoOrigin,
+			endPoint <- geoDest
+		),
+		geoOrigin:Fiware!"geo:json"(
+			type <- 'geo:json',
+			value <- pointOrigin
+		),
+		pointOrigin:Fiware!Point(
+			type <- 'Point',
+			coordinates <- Sequence{
+				pv.path.origin.longitude.degree,
+				pv.path.origin.latitude.degree
+			}
+		),
+		geoDest:Fiware!"geo:json"(
+			type <- 'geo:json',
+			value <- pointDest
+		),
+		pointDest:Fiware!Point(
+			type <- 'Point',
+			coordinates <- Sequence{
+				pv.path.destination.longitude.degree,
+				pv.path.destination.latitude.degree
+			}
+		),
+		traffic:Fiware!TrafficFlowObserved(
+			refRoadSegment <- Sequence{'RoadSegment-path'},
+			averageVehicleLength <- thisModule.transDecimeterToMeter(pv.vehicle.surroundingObject.distance),
+			laneDirection <- thisModule.transDirectionToLaneDirection(pv.vehicle.surroundingObject.direction)
+		)
+}

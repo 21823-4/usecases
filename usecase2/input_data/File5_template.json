@@ -1,0 +1,123 @@
+{
+    "assetAdministrationShells": [
+        {
+            "assetInformation": {
+                "assetKind": "Type",
+                "globalAssetId": { "keys": [] },
+                "specificAssetId": [],
+                "billOfMaterial": [],
+                "defaultThumbnail": "",
+                "index": 0
+            },
+            "asset": {
+                "keys": [
+                    {
+                        "type": "Asset",
+                        "local": false,
+                        "value": "HTTP://*.21823-4.*/CDD_2_AAS_DEMO",
+                        "index": 0,
+                        "idType": "IRI"
+                    }
+                ]
+            },
+            "submodels": [
+                {
+                    "keys": [
+                        {
+                            "type": "Submodel",
+                            "local": true,
+                            "value": "CDD_2_AAS_DEMO/SM/SM_DEMO1",
+                            "index": 0,
+                            "idType": "IRI"
+                        }
+                    ]
+                }
+            ],
+            "conceptDictionaries": [
+              {}
+            ],
+            "identification": {
+                "idType": "IRI",
+                "id": "HTTP://*.21823-4.*/CDD_2_AAS_DEMO/aas/1/1/454576463545648365874"
+            },
+            "idShort": "CDD_2_AAS_DEMO1",
+            "category": "CONSTANT",
+            "modelType": {
+                "name": "AssetAdministrationShell"
+            }
+        }
+    ],
+    "assets": [
+        {
+            "identification": {
+                "idType": "IRI",
+                "id": "HTTP://*.21823-4.*/CDD_2_AAS_DEMO"
+            },
+            "idShort": "CDD_2_AAS_DEMO_asset1",
+            "modelType": {
+                "name": "Asset"
+            },
+            "kind": "Instance",
+            "descriptions": [
+                {
+                    "language": "EN",
+                    "text": "CDD_2_AAS DEMO assets "
+                }
+            ]
+        }
+    ],
+    "submodels": [
+        {
+            "semanticId": {
+                "keys": [
+                    {
+                        "type": "GlobalReference",
+                        "local": true,
+                        "value": "0112/2///61987#ABA000",
+                        "index": 0,
+                        "idType": "IRI"
+                    }
+                ]
+            },
+            "qualifiers": [],
+            "identification": {
+                "idType": "IRI",
+                "id": "0112/2///61987#ABA000"
+            },
+            "idShort": "Equipment for industrial-process automation",
+            "modelType": {
+                "name": "Submodel"
+            },
+            "kind": "Template",
+            "submodelElements": [
+                {
+                    "value": "title property from CDD for DEMO",
+                    "semanticId": {
+                        "keys": [
+                            {
+                                "type": "ConceptDescription",
+                                "local": true,
+                                "value": "0112/2///61987#ABA002",
+                                "index": 0,
+                                "idType": "IRDI"
+                            }
+                        ]
+                    },
+                    "constraints": [],
+                    "idShort": "title",
+                    "category": "VARIABLE",
+                    "modelType": {
+                        "name": "Property"
+                    },
+                    "valueType": {
+                        "dataObjectType": {
+                            "name": "string"
+                        }
+                    },
+                    "kind": "Instance"
+                }
+            ]
+        }
+    ],
+    "conceptDescriptions": []
+}

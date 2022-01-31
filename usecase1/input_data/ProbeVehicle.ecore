@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ProbeVehicle">
+  <eClassifiers xsi:type="ecore:EClass" name="Root">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sensing" eType="#//Sensing"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="vehicle" eType="#//Vehicle"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="path" eType="#//Path"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Sensing">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp" eType="#//REAL"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="latitude" eType="#//LocationDegreeWithConfidence"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="longitude" eType="#//LocationDegreeWithConfidence"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="altitude" eType="#//LocationAltitudeWithConfidence"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LocationDegreeWithConfidence">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="degree" eType="#//REAL"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="confidence" eType="#//REAL"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LocationAltitudeWithConfidence">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="altitude" eType="#//INTEGER"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="confidence" eType="#//REAL"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Vehicle">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="velocity" eType="#//RateVelocityWithConfidence"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="traces" upperBound="-1"
+        eType="#//Link"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="surrounds" eType="#//Environment"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="surroundingObject" eType="#//SurroundingObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RateVelocityWithConfidence">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="velocity" eType="#//INTEGER"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="confidence" eType="#//REAL"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Path">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="links" upperBound="-1"
+        eType="#//Link"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="origin" eType="#//Point"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="destination" eType="#//Point"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Link">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="connects" lowerBound="2"
+        upperBound="-1" eType="#//Point"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Point">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="latitude" eType="#//LocationDegreeWithConfidence"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="longitude" eType="#//LocationDegreeWithConfidence"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SurroundingObject">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distance" eType="#//INTEGER"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="direction" eType="#//INTEGER"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Obstacle" eSuperTypes="#//SurroundingObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Environment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rainfallIntensity" eType="#//INTEGER"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="temperature" eType="#//QtyDegreesCelsiusWithConfidence"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lightCondition" eType="#//INTEGER"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QtyDegreesCelsiusWithConfidence">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="degrees" eType="#//REAL"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="confidence" eType="#//REAL"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="REAL" instanceClassName="double"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="INTEGER" instanceClassName="int"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="BOOLEAN" instanceClassName="boolean"/>
+</ecore:EPackage>

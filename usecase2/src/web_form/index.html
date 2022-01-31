@@ -1,0 +1,98 @@
+<!--
+  Copyright (C) 2021 TOSHIBA Corporation.
+  SPDX-License-Identifier: MIT
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Conversion from IEC CDD to AAS</title>
+</head>
+
+<body>
+  <table>
+    <TR>
+      <TD colspan=2>
+        <h2>Data Conversion from IEC CDD to AAS</h2>
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan=2>
+        <h3>&lt;Input file&gt;</h3>
+      </TD>
+    </TR>
+    <TR>
+      <TD width="40%">
+        <div>CDD meta model:</div>
+      </TD>
+      <TD>
+        <div id="cdd_metamodel"></div>
+      </TD>
+    </TR>
+    <TR>
+      <TD>
+        <div>IEC CDD (class)：</div>
+      </TD>
+      <TD>
+        <div id="iec_cdd_class"></div>
+      </TD>
+    </TR>
+    <TR>
+      <TD>
+        <div>IEC CDD (property):</div>
+      </TD>
+      <TD>
+        <div id="iec_cdd_prop"></div>
+      </TD>
+    </TR>
+    <TR>
+      <TD>
+        <div>AAS meta model:</div>
+      </TD>
+      <TD>
+        <div id="aas_metamodel"></div>
+      </TD>
+    </TR>
+    <TR>
+      <TD>
+        <div>Conversion rule:</div>
+      </TD>
+      <TD>
+        <div id="convert_rule"></div>
+      </TD>
+    </TR>
+  </table>
+  <br>
+  <table>
+    <TR>
+      <TD class="center"><input type="button" value="Convert" id="convert" class="btn" /></TD>
+    </TR>
+  </table>
+  <br>
+  <table>
+    <TR>
+      <TD class="nowrap">
+        <div>Conversion result:</div>
+      </TD>
+      <TD class="left">
+        <input type="button" value="Download" id="download" class="btn" download />
+      </TD>
+    </TR>
+    <TR>
+      <TD colspan=2>
+        <div id="message_area"></div>
+        <div id ="download_errordetails"></div>
+      </TD> 
+    </TR>
+    <TR>
+      <TD id="result_td" colspan=2>
+        <div id="tree_area"></div>
+      </TD>
+    </TR>
+  </table>
+  <br>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+    "File1": "data/File1_IEC61360.xsd",
+    "File2class": "data/File2_IEC61987_class.csv",
+    "File2property": "data/File2_IEC61987_property.csv",
+    "File3": "data/File3_AAS_MM.json",
+    "File4": "data/File4_AAS_CDD_MappingRules.csv",
+    "Template": "data/File5_template.json"
+}

@@ -1,0 +1,43 @@
+{
+  "vehicle": {
+    "id":"vehicle:my_car",
+    "speed":54.0,
+    "location": {
+      "type":"geo:json",
+      "value": {
+        "type":"Point",
+        "coordinates":[139.65,35.67,40]
+      }
+    }
+  },
+  "weatherObserved": {
+    "temperature":10.0,
+    "illuminance":1001,
+    "precipitation":5
+  },
+  "road": {
+    "refRoadSegment":["RoadSegment-path"]
+  },
+  "roadSegment":[ {
+    "id":"RoadSegment-path",
+    "startPoint": {
+      "type":"geo:json",
+      "value": {
+        "type":"Point",
+        "coordinates":[137.89,32.1]
+      }
+    },
+    "endPoint": {
+      "type":"geo:json",
+      "value": {
+        "type":"Point",
+        "coordinates":[134.56,38.9]
+      }
+    }
+  }],
+  "trafficFlowObserved": {
+    "averageVehicleLength":30.0,
+    "laneDirection":"forword",
+    "refRoadSegment":["RoadSegment-path"]
+  }
+}
