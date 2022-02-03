@@ -136,25 +136,25 @@ Each file path is specified by a relative path from this config.json.
 ```
 usecase2
 ├─img
-│   image.png
-│   image2.png
+│   ├─image.png
+│   └─image2.png
 │
 ├─src
 │  ├─convert_engine
-│  │      cddconvert.ts       // top function of convert engine.
-│  │      AASMetamodel.ts     // AAS Metamodel Class.
-│  │      ConvertRules.ts     // Information exchange rules Class.
-│  │      IecCddClass.ts      // IecCddClass/IecCddProp Class.
-│  │      ResultRetention.ts  // ResultRetention Class.
-│  │      const.ts            // Definition of constant strings, etc.
-│  │      messages.ts         // related to console message.
-│  │      util.ts             // utility functions.
+│  │   ├─cddconvert.ts       // top function of convert engine.
+│  │   ├─AASMetamodel.ts     // AAS Metamodel Class.
+│  │   ├─ConvertRules.ts     // Information exchange rules Class.
+│  │   ├─IecCddClass.ts      // IecCddClass/IecCddProp Class.
+│  │   ├─ResultRetention.ts  // ResultRetention Class.
+│  │   ├─const.ts            // Definition of constant strings, etc.
+│  │   ├─messages.ts         // related to console message.
+│  │   └─util.ts             // utility functions.
 │  │
 │  └─web_form
-│         config.json         // input file configuration JSON.
-│         index.html          // web UI.
-│         index.ts            // script for web UI.
-│         styles.css          // stylesheet for web UI.
+│       ├─config.json         // input file configuration JSON.
+│       ├─index.html          // web UI.
+│       ├─index.ts            // script for web UI.
+│       └─styles.css          // stylesheet for web UI.
 │
 ├─input_data                // input data for Web UI.
 └─output_data               // output data of default input data.
