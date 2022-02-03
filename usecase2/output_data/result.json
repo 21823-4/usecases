@@ -42,7 +42,7 @@
 			],
 			"identification": {
 				"idType": "IRI",
-				"id": "smart.festo.com/demo/aas/1/1/454576463545648365874"
+				"id": "HTTP://*.21823-4.*/CDD_2_AAS_DEMO/aas/1/1/454576463545648365874"
 			},
 			"idShort": "CDD_2_AAS_DEMO1",
 			"category": "CONSTANT",
