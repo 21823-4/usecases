@@ -48,19 +48,19 @@ After executing the program with the above command, two output files: outFIWARE.
 ```
 usecase1
 ├─input_data
-│   Fiware.ecore                // FIWARE data model file in ecore format
-│   M-Vehicle.xmi               // ISO 22837_2009 vehicle probe data file in xmi format
-│   ProbeVehicle.ecore          // ISO 22837_2009 vehicle probe data model file in ecore format
-│   Probe2Fiware.atl            // transfomartion rule file in ATL format
+│   ├─Fiware.ecore                // FIWARE data model file in ecore format
+│   ├─M-Vehicle.xmi               // ISO 22837_2009 vehicle probe data file in xmi format
+│   ├─ProbeVehicle.ecore          // ISO 22837_2009 vehicle probe data model file in ecore format
+│   └─Probe2Fiware.atl            // transfomartion rule file in ATL format
 ├─output_data
-│   outFIWARE.json              // output file sample
-│   Probe2FIWARE.asm            // temporary file 
+│   ├─outFIWARE.json              // output file sample
+│   └─Probe2FIWARE.asm            // temporary file 
 └─src/main/java/jp/co/toshiba/rdc/modelconverter
     ├─core
-    │ AtlLauncherService.java    // ATL transfomartion service
+    │  └─AtlLauncherService.java    // ATL transfomartion service
     ├─extractor
-    │ JsonExtractor.java         // JSON format extractor
+    │  └─JsonExtractor.java         // JSON format extractor
     └─main
-      Probe2Fiware.java          // main class
+        └─Probe2Fiware.java          // main class
 
 ```
