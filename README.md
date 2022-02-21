@@ -42,7 +42,7 @@ Relationships between this use case and ISO/IEC 21823-4 are shown in Figure 2.
 **Figure 2: Use case 2 relationships to ISO/IEC 21823-4** 
 
 - Metamodel1 is the metamodel defined in [IEC 61360-1](https://webstore.iec.ch/publication/28560):Standard data element types with associated classification scheme - Part 1: Definitions - Principles and methods.
-- Model1 is the IEC 61987 CDD model comlying to Metamodel1. [IEC 61987 CDD](https://cdd.iec.ch/cdd/iec61987/iec61987.nsf/TreeFrameset?OpenFrameSet&ongletactif=1) model contains entities defined in the IEC 61987 series: 
+- Model1 is the IEC 61987 CDD model comlying with Metamodel1. [IEC 61987 CDD](https://cdd.iec.ch/cdd/iec61987/iec61987.nsf/TreeFrameset?OpenFrameSet&ongletactif=1) model contains entities defined in the IEC 61987 series: 
 industrial-process measurement and control - Data structures and elements in process equipment catalogues. 
 - Metamodel2 is the metamodel defined in AAS. AAS is a standard model defined for industrial IoT. Its detailed metamodel can be referred through  
 [Plattform Industrie 4.0 - Details of the Asset Administration Shell - Part 1 (plattform-i40.de)](https://www.plattform-i40.de/IP/Redaktion/EN/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html). 
