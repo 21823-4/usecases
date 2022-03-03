@@ -3,7 +3,7 @@
 # Description
 This tool is a use case implementation of ISO/IEC 21823-4. 
 In this use case, we implement a tool that converts IoT System1 using ISO 22837 
-and ISO 14817 vehicle probe data to IoT System2 using FIWARE DATA MODEL (https://fiware-datamodels.readthedocs.io/en/latest/index.html) according to ISO/IEC 21823-4.
+and ISO 14817 vehicle probe data to IoT System2 using [FIWARE DATA MODEL](https://fiware-datamodels.readthedocs.io/en/latest/index.html) according to ISO/IEC 21823-4.
 Via information exchange rules between Metamodel1 (vehicle prove data) and Metamodel2 (FIWARE),
 Model1 can be automatically converted to Model2 complying to Metamodel2. 
 
